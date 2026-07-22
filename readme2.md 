@@ -1,4 +1,3 @@
-
 ### 7. Handling New Files in VS Code (Untracked Files)
 
 When you create or copy a brand-new file into your project folder, Git recognizes it as an **Untracked File** (marked with a green **'U'** icon in VS Code).
