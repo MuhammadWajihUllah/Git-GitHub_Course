@@ -22,3 +22,4 @@ While staging and committing, VS Code displays single letters next to your files
 * **U (Untracked):** A brand-new file that Git has never seen before. You need to click `+` to track it.
 * **A (Added):** A new file that you have successfully staged and is ready for its first commit.
 * **M (Modified):** An existing file that Git was already tracking, but you have edited or changed since your last commit. Click `+` to stage these updates before committing.
+handle these things carefully
