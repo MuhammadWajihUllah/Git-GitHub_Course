@@ -42,3 +42,25 @@ If VS Code is tracking too many files (e.g., your whole Home directory) and you 
 3. Right-click the `.git` folder in the explorer panel and select **Delete** (or move it to the trash).
 4. The Source Control panel will instantly refresh and stop tracking those files.
 5. Go to **File** > **Open Folder...**, choose your new directory (like your Documents folder), and click **Initialize Repository** again to start fresh.
+
+
+### 6. Staging and Committing Changes in VS Code
+
+Visual Studio Code provides a visual way to prepare (stage) and save (commit) your work without using the terminal.
+
+#### Step 1: Track Your Changes (Staging)
+When you modify a file, it will appear under the **Changes** list in the Source Control panel (`Ctrl` + `Shift` + `G`).
+* **What it means:** Staging is like putting items into a box before taping it shut. You are choosing which changes you want to include in your next save point.
+* **How to do it:** Click the **`+` (plus sign)** next to a file to move it up to **Staged Changes**.
+
+#### Step 2: Save Your Progress (Committing)
+Once your files are staged, you need to create a permanent snapshot of them.
+* **How to do it:** Type a short, descriptive message in the text box at the top of the panel (e.g., `"Add readme notes about Git"`).
+* **Finish:** Click the blue **Commit** button. Your changes are now saved securely in your local repository history.
+
+#### Step 3: Send to GitHub (Pushing)
+* Click the blue **Sync Changes** button that appears after committing, or click the cloud/arrows icon at the bottom-left status bar to upload your local commits to GitHub.
+
+
+# Second Lecture by Shradha Khapra
+https://www.youtube.com/watch?v=Ez8F0nW6S-w
