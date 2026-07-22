@@ -61,6 +61,3 @@ Once your files are staged, you need to create a permanent snapshot of them.
 #### Step 3: Send to GitHub (Pushing)
 * Click the blue **Sync Changes** button that appears after committing, or click the cloud/arrows icon at the bottom-left status bar to upload your local commits to GitHub.
 
-
-# Second Lecture by Shradha Khapra
-https://www.youtube.com/watch?v=Ez8F0nW6S-w
