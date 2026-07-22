@@ -1,0 +1,25 @@
+
+### 7. Handling New Files in VS Code (Untracked Files)
+
+When you create or copy a brand-new file into your project folder, Git recognizes it as an **Untracked File** (marked with a green **'U'** icon in VS Code).
+
+#### Step 1: Stage the New File
+Before Git can save a new file, you must tell Git to start tracking it.
+1. Open the **Source Control** panel (`Ctrl` + `Shift` + `G`).
+2. Look under the **Untracked** or **Changes** section.
+3. Click the **`+` (plus sign)** next to your new file. Its status will change to **Staged Changes** (marked with an **'A'** for Added).
+
+#### Step 2: Commit the New File
+1. Type a clear message in the commit text box describing the new file (e.g., `"Add new style.css file"` or `"Create images folder"`).
+2. Click the blue **Commit** button. The file is now a permanent part of your local project history.
+
+#### Step 3: Push and Upload to GitHub
+1. After committing, click the blue **Sync Changes** button in the Source Control panel.
+2. Alternatively, click the **Publish Branch** button if this is the very first time you are pushing this folder to a brand-new GitHub repository.
+3. Refresh your GitHub repository page in your browser, and your new file will appear in the repository list.
+
+#### Step 4: Understanding File Status Letters (U, A, M)
+While staging and committing, VS Code displays single letters next to your files to show their current Git status:
+* **U (Untracked):** A brand-new file that Git has never seen before. You need to click `+` to track it.
+* **A (Added):** A new file that you have successfully staged and is ready for its first commit.
+* **M (Modified):** An existing file that Git was already tracking, but you have edited or changed since your last commit. Click `+` to stage these updates before committing.
